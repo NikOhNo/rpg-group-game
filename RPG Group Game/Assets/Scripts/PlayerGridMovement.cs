@@ -55,6 +55,8 @@ public class PlayerGridMovement : MonoBehaviour
             if(!horizontalInput && !verticalInput)
             {
                 anim.SetBool("moving", false);
+                anim.SetFloat("horizontal input", 0f);
+                anim.SetFloat("vertical input", 0f);
             }
         }
         else
