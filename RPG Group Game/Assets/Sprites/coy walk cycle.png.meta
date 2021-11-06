@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: fb73cba42150d6540a3e934306d54ecb
+guid: 9a39795539187814e9ee4bd281cc6fbd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6372171534878573039
-    second: MC Walk_0
+      213: -6337585972258446397
+    second: coy walk cycle_0
   - first:
-      213: 3491669735091510396
-    second: MC Walk_1
+      213: -5432892094421284502
+    second: coy walk cycle_1
   - first:
-      213: 7294919155629018656
-    second: MC Walk_2
+      213: 3053415046041842685
+    second: coy walk cycle_2
   - first:
-      213: -3475171767748574813
-    second: MC Walk_3
+      213: -2085418954062464169
+    second: coy walk cycle_3
   - first:
-      213: -5816821585907049144
-    second: MC Walk_4
+      213: 5794842059515704158
+    second: coy walk cycle_4
   - first:
-      213: -920161461997277242
-    second: MC Walk_5
+      213: -915910217146134189
+    second: coy walk cycle_5
   - first:
-      213: 4569195662703933193
-    second: MC Walk_6
+      213: 1102262564893517787
+    second: coy walk cycle_6
   - first:
-      213: -681357420532066184
-    second: MC Walk_7
+      213: -1741265578346558052
+    second: coy walk cycle_7
   - first:
-      213: -6819363449844175971
-    second: MC Walk_8
+      213: 177174076742602066
+    second: coy walk cycle_8
   - first:
-      213: 4018242846878536851
-    second: MC Walk_9
+      213: -3025197128484261098
+    second: coy walk cycle_9
   - first:
-      213: -2275341383707622484
-    second: MC Walk_10
+      213: -4358637247744435067
+    second: coy walk cycle_10
   - first:
-      213: 7473892206829610603
-    second: MC Walk_11
+      213: 4705921038538943077
+    second: coy walk cycle_11
   - first:
-      213: 1383604787521501178
-    second: MC Walk_12
+      213: -941165635902594406
+    second: coy walk cycle_12
   - first:
-      213: 3883259425640711659
-    second: MC Walk_13
+      213: 4821110291619542955
+    second: coy walk cycle_13
   - first:
-      213: 4694176357692014374
-    second: MC Walk_14
+      213: -1756535154697533461
+    second: coy walk cycle_14
   - first:
-      213: 1816043310685165203
-    second: MC Walk_15
+      213: -1639381549618582192
+    second: coy walk cycle_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,9 +83,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -94,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,337 +151,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC Walk_0
+      name: coy walk cycle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 126
-        width: 30
-        height: 40
+        y: 225
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe10b40ff308e6850800000000000000
-      internalID: 6372171534878573039
+      spriteID: 3c3690ed22f5c08a0800000000000000
+      internalID: -6337585972258446397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_1
+      name: coy walk cycle_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 126
-        width: 30
-        height: 40
+        x: 50
+        y: 225
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7c9c19df17e47030800000000000000
-      internalID: 3491669735091510396
+      spriteID: a69cdf0cc6d7a94b0800000000000000
+      internalID: -5432892094421284502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_2
+      name: coy walk cycle_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 126
-        width: 30
-        height: 40
+        x: 100
+        y: 225
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ec5786252cc3560800000000000000
-      internalID: 7294919155629018656
+      spriteID: df338238ec8ef5a20800000000000000
+      internalID: 3053415046041842685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_3
+      name: coy walk cycle_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 126
-        width: 30
-        height: 40
+        x: 150
+        y: 225
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a141e180b5b5cfc0800000000000000
-      internalID: -3475171767748574813
+      spriteID: 75b7d33a28a1f03e0800000000000000
+      internalID: -2085418954062464169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 85
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84d9f22269f764fa0800000000000000
-      internalID: -5816821585907049144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC Walk_5
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 85
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cfe5a9860eea33f0800000000000000
-      internalID: -920161461997277242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC Walk_6
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 85
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90739b02f3b096f30800000000000000
-      internalID: 4569195662703933193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC Walk_7
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 85
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8781c1839055b86f0800000000000000
-      internalID: -681357420532066184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC Walk_8
+      name: coy walk cycle_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 44
-        width: 30
-        height: 40
+        y: 150
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9b61c9a211cc51a0800000000000000
-      internalID: -6819363449844175971
+      spriteID: e533de6962a6b6050800000000000000
+      internalID: 5794842059515704158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_9
+      name: coy walk cycle_5
       rect:
         serializedVersion: 2
-        x: 30
-        y: 44
-        width: 30
-        height: 40
+        x: 50
+        y: 150
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3941375649aa3c730800000000000000
-      internalID: 4018242846878536851
+      spriteID: 3519adc92880a43f0800000000000000
+      internalID: -915910217146134189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_10
+      name: coy walk cycle_6
       rect:
         serializedVersion: 2
-        x: 60
-        y: 44
-        width: 30
-        height: 40
+        x: 100
+        y: 150
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca38c59111d5c60e0800000000000000
-      internalID: -2275341383707622484
+      spriteID: bd760b576f50c4f00800000000000000
+      internalID: 1102262564893517787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_11
+      name: coy walk cycle_7
       rect:
         serializedVersion: 2
-        x: 90
-        y: 44
-        width: 30
-        height: 40
+        x: 150
+        y: 150
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66a3ad1d5998b760800000000000000
-      internalID: 7473892206829610603
+      spriteID: c9dc90f9e28c5d7e0800000000000000
+      internalID: -1741265578346558052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_12
+      name: coy walk cycle_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 30
-        height: 40
+        y: 75
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af7bfbd393d833310800000000000000
-      internalID: 1383604787521501178
+      spriteID: 25d86a352e2757200800000000000000
+      internalID: 177174076742602066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_13
+      name: coy walk cycle_9
       rect:
         serializedVersion: 2
-        x: 30
-        y: 3
-        width: 30
-        height: 40
+        x: 50
+        y: 75
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be5800c8fdb14e530800000000000000
-      internalID: 3883259425640711659
+      spriteID: 613f9256d375406d0800000000000000
+      internalID: -3025197128484261098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_14
+      name: coy walk cycle_10
       rect:
         serializedVersion: 2
-        x: 60
-        y: 3
-        width: 30
-        height: 40
+        x: 100
+        y: 75
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62ff449c680152140800000000000000
-      internalID: 4694176357692014374
+      spriteID: 58c186724820383c0800000000000000
+      internalID: -4358637247744435067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Walk_15
+      name: coy walk cycle_11
       rect:
         serializedVersion: 2
-        x: 90
-        y: 3
-        width: 30
-        height: 40
+        x: 150
+        y: 75
+        width: 50
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3961d1ee4c1e33910800000000000000
-      internalID: 1816043310685165203
+      spriteID: 56aa623604ace4140800000000000000
+      internalID: 4705921038538943077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coy walk cycle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92a83537de40f2f0800000000000000
+      internalID: -941165635902594406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coy walk cycle_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba776f2544608e240800000000000000
+      internalID: 4821110291619542955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coy walk cycle_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be784c455988f97e0800000000000000
+      internalID: -1756535154697533461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coy walk cycle_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05da7ab9a2fbf39e0800000000000000
+      internalID: -1639381549618582192
       vertices: []
       indices: 
       edges: []
