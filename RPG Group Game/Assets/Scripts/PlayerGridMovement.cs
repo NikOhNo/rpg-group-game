@@ -38,6 +38,7 @@ public class PlayerGridMovement : MonoBehaviour
             bool verticalInput = Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f;
             if (horizontalInput)
             {
+                anim.SetFloat("vertical input", 0f);
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
@@ -45,6 +46,7 @@ public class PlayerGridMovement : MonoBehaviour
                 }
             } else if (verticalInput)
             {
+                anim.SetFloat("horizontal input", 0f);
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
                 {
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
