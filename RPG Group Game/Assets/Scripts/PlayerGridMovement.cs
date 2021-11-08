@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,6 +44,11 @@ public class PlayerGridMovement : MonoBehaviour
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                     anim.SetFloat("horizontal input", Input.GetAxisRaw("Horizontal"));
+                    AnnounceNewPos(movePoint.position);
+                }
+                else
+                {
+                    anim.SetFloat("horizontal input", 0);
                 }
             } else if (verticalInput)
             {
@@ -50,8 +56,13 @@ public class PlayerGridMovement : MonoBehaviour
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
                 {
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                    anim.SetFloat("vertical input", Input.GetAxisRaw("Vertical"));
+                    AnnounceNewPos(movePoint.position);
                 }
-                anim.SetFloat("vertical input", Input.GetAxisRaw("Vertical"));
+                else
+                {
+                    anim.SetFloat("vertical input", 0f);
+                }
             }
 
             if(!horizontalInput && !verticalInput)
@@ -65,5 +76,11 @@ public class PlayerGridMovement : MonoBehaviour
         {
             anim.SetBool("moving", true);
         }
+    }
+
+    private void AnnounceNewPos(Vector3 position)
+    {
+        GameObject newPos = new GameObject("Position");
+        newPos.transform.position = position;
     }
 }
