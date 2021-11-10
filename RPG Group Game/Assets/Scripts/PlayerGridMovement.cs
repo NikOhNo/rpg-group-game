@@ -10,20 +10,19 @@ public class PlayerGridMovement : MonoBehaviour
     public LayerMask whatStopsMovement;
     public Animator anim;
 
-    PlayerFollowing playerFollowing;
+    LineCoordinates playerFollowing;
 
     // Start is called before the first frame update
     void Start()
     {
         movePoint.parent = null;
-        playerFollowing = FindObjectOfType<PlayerFollowing>();
+        playerFollowing = FindObjectOfType<LineCoordinates>();
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
-        playerFollowing.MoveParty();
 
         /* this code uses unity's built in input to check if its being pressed
          * if the input is being pressed, checks whether it is horizontal or verticle

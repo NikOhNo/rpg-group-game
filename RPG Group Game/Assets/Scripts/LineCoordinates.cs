@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerFollowing : MonoBehaviour
+public class LineCoordinates : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-
-    [SerializeField] [Range(0,2)] int orderInParty;
-
     static List<Vector3> lineCoords = new List<Vector3>();
 
     public void GiveCoord(Vector3 coordinate)
     {
         lineCoords.Insert(0, coordinate);
+    }
+    public int GiveCount()
+    {
+        return lineCoords.Count;
     }
 
     public void DeleteCoord()
@@ -23,10 +23,8 @@ public class PlayerFollowing : MonoBehaviour
         }
     }
 
-    public void MoveParty()
+    public Vector3 GetCoord(int index)
     {
-        Debug.Log(lineCoords.Count);
-        Debug.Log(orderInParty);
-        Vector3.MoveTowards(transform.position, lineCoords[orderInParty], moveSpeed * Time.deltaTime);
+        return lineCoords[index];
     }
 }
