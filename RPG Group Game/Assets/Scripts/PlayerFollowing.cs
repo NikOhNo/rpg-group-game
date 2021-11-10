@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class PlayerFollowing : MonoBehaviour
 {
+    public float moveSpeed = 5f;
 
-    [SerializeField] [Range(1,3)] int orderInParty;
+    [SerializeField] [Range(0,2)] int orderInParty;
 
+    static List<Vector3> lineCoords = new List<Vector3>();
 
-    // Start is called before the first frame update
-    void Start()
+    public void GiveCoord(Vector3 coordinate)
     {
-        
+        lineCoords.Insert(0, coordinate);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DeleteCoord()
     {
-        if (orderInParty == 0)
+        if(lineCoords.Count > 3)
         {
-            
+            lineCoords.RemoveAt(3);
         }
+    }
+
+    public void MoveParty()
+    {
+        Debug.Log(lineCoords.Count);
+        Debug.Log(orderInParty);
+        Vector3.MoveTowards(transform.position, lineCoords[orderInParty], moveSpeed * Time.deltaTime);
     }
 }

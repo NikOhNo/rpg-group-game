@@ -7,21 +7,23 @@ public class PlayerGridMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Transform movePoint;
-
     public LayerMask whatStopsMovement;
-
     public Animator anim;
+
+    PlayerFollowing playerFollowing;
 
     // Start is called before the first frame update
     void Start()
     {
         movePoint.parent = null;
+        playerFollowing = FindObjectOfType<PlayerFollowing>();
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
+        playerFollowing.MoveParty();
 
         /* this code uses unity's built in input to check if its being pressed
          * if the input is being pressed, checks whether it is horizontal or verticle
@@ -44,7 +46,8 @@ public class PlayerGridMovement : MonoBehaviour
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                     anim.SetFloat("horizontal input", Input.GetAxisRaw("Horizontal"));
-                    AnnounceNewPos(movePoint.position);
+                    playerFollowing.GiveCoord(transform.position);
+                    playerFollowing.DeleteCoord();
                 }
                 else
                 {
@@ -57,7 +60,8 @@ public class PlayerGridMovement : MonoBehaviour
                 {
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
                     anim.SetFloat("vertical input", Input.GetAxisRaw("Vertical"));
-                    AnnounceNewPos(movePoint.position);
+                    playerFollowing.GiveCoord(transform.position);
+                    playerFollowing.DeleteCoord();
                 }
                 else
                 {
@@ -76,11 +80,5 @@ public class PlayerGridMovement : MonoBehaviour
         {
             anim.SetBool("moving", true);
         }
-    }
-
-    private void AnnounceNewPos(Vector3 position)
-    {
-        GameObject newPos = new GameObject("Position");
-        newPos.transform.position = position;
     }
 }
