@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 4dbf6217850ed884dade77aa000d554a
+guid: ec9655ea53db5394c8661b078db1b55b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8134169993233920946
-    second: isaac walk_0
+      213: -6055610653265171936
+    second: isaac blueeee_0
   - first:
-      213: 5458110011531289644
-    second: isaac walk_1
+      213: -2791177375815266748
+    second: isaac blueeee_1
   - first:
-      213: 364206453417487832
-    second: isaac walk_2
+      213: 1004224502223419986
+    second: isaac blueeee_2
   - first:
-      213: 2812088295626964407
-    second: isaac walk_3
+      213: -626738139943780629
+    second: isaac blueeee_3
   - first:
-      213: 2077596480154078779
-    second: isaac walk_4
+      213: 8797121313633260351
+    second: isaac blueeee_4
   - first:
-      213: 4370298388713227436
-    second: isaac walk_5
+      213: -7535581912386039736
+    second: isaac blueeee_5
   - first:
-      213: -7918694468277379274
-    second: isaac walk_6
+      213: 614281489036959062
+    second: isaac blueeee_6
   - first:
-      213: -7869618094973694855
-    second: isaac walk_7
+      213: -6975395572148021745
+    second: isaac blueeee_7
   - first:
-      213: 4190343355958993216
-    second: isaac walk_8
+      213: -2928297070565085845
+    second: isaac blueeee_8
   - first:
-      213: -8660636724357904970
-    second: isaac walk_9
+      213: -4053962626825347706
+    second: isaac blueeee_9
   - first:
-      213: -7114791490054734214
-    second: isaac walk_10
+      213: 6521386395666605026
+    second: isaac blueeee_10
   - first:
-      213: 6206825007047410214
-    second: isaac walk_11
+      213: 8129279693266185875
+    second: isaac blueeee_11
   - first:
-      213: 8646525083329438824
-    second: isaac walk_12
+      213: -8780845163418350287
+    second: isaac blueeee_12
   - first:
-      213: 862306821676953488
-    second: isaac walk_13
+      213: -110025826118976450
+    second: isaac blueeee_13
   - first:
-      213: -6017393292563831163
-    second: isaac walk_14
+      213: 5485989126058860400
+    second: isaac blueeee_14
   - first:
-      213: -8013995517206843492
-    second: isaac walk_15
+      213: -6499820537317222997
+    second: isaac blueeee_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,7 +128,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,7 +140,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -151,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: isaac walk_0
+      name: isaac blueeee_0
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b3795d138062e070800000000000000
-      internalID: 8134169993233920946
+      spriteID: 02aee02e13626fba0800000000000000
+      internalID: -6055610653265171936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_1
+      name: isaac blueeee_1
       rect:
         serializedVersion: 2
         x: 50
@@ -186,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24635e132a1fbb40800000000000000
-      internalID: 5458110011531289644
+      spriteID: 44e8c6907feb349d0800000000000000
+      internalID: -2791177375815266748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_2
+      name: isaac blueeee_2
       rect:
         serializedVersion: 2
         x: 100
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ddaad8f6dbed0500800000000000000
-      internalID: 364206453417487832
+      spriteID: 25a35c93dd8bfed00800000000000000
+      internalID: 1004224502223419986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_3
+      name: isaac blueeee_3
       rect:
         serializedVersion: 2
         x: 150
@@ -228,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bdf0e1e76b860720800000000000000
-      internalID: 2812088295626964407
+      spriteID: bee36797bf06d47f0800000000000000
+      internalID: -626738139943780629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_4
+      name: isaac blueeee_4
       rect:
         serializedVersion: 2
         x: 0
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3e8f2abdfa15dc10800000000000000
-      internalID: 2077596480154078779
+      spriteID: f33d021c937a51a70800000000000000
+      internalID: 8797121313633260351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_5
+      name: isaac blueeee_5
       rect:
         serializedVersion: 2
         x: 50
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca4c6bdca3b66ac30800000000000000
-      internalID: 4370298388713227436
+      spriteID: 8401f580d2c3c6790800000000000000
+      internalID: -7535581912386039736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_6
+      name: isaac blueeee_6
       rect:
         serializedVersion: 2
         x: 100
@@ -291,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63fd97d06552b1290800000000000000
-      internalID: -7918694468277379274
+      spriteID: 65d552a72cd568800800000000000000
+      internalID: 614281489036959062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_7
+      name: isaac blueeee_7
       rect:
         serializedVersion: 2
         x: 150
@@ -312,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97c4b13a90089c290800000000000000
-      internalID: -7869618094973694855
+      spriteID: f06d8423faa623f90800000000000000
+      internalID: -6975395572148021745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_8
+      name: isaac blueeee_8
       rect:
         serializedVersion: 2
         x: 0
@@ -333,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041aad2b417172a30800000000000000
-      internalID: 4190343355958993216
+      spriteID: b6da62044599c57d0800000000000000
+      internalID: -2928297070565085845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_9
+      name: isaac blueeee_9
       rect:
         serializedVersion: 2
         x: 50
@@ -354,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5c1f309cc3fc780800000000000000
-      internalID: -8660636724357904970
+      spriteID: 68d9d5f387e6db7c0800000000000000
+      internalID: -4053962626825347706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_10
+      name: isaac blueeee_10
       rect:
         serializedVersion: 2
         x: 100
@@ -375,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7eb058e5de234d90800000000000000
-      internalID: -7114791490054734214
+      spriteID: 2e3e5c4006e908a50800000000000000
+      internalID: 6521386395666605026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_11
+      name: isaac blueeee_11
       rect:
         serializedVersion: 2
         x: 150
@@ -396,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62282107572132650800000000000000
-      internalID: 6206825007047410214
+      spriteID: 39e6dec6fc001d070800000000000000
+      internalID: 8129279693266185875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_12
+      name: isaac blueeee_12
       rect:
         serializedVersion: 2
         x: 0
@@ -417,14 +417,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8642b5580c0aef770800000000000000
-      internalID: 8646525083329438824
+      spriteID: 13d0eb6c8db242680800000000000000
+      internalID: -8780845163418350287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_13
+      name: isaac blueeee_13
       rect:
         serializedVersion: 2
         x: 50
@@ -438,14 +438,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f63715c7787fb00800000000000000
-      internalID: 862306821676953488
+      spriteID: e3c3f06181c197ef0800000000000000
+      internalID: -110025826118976450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_14
+      name: isaac blueeee_14
       rect:
         serializedVersion: 2
         x: 100
@@ -459,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5862ae29eaced7ca0800000000000000
-      internalID: -6017393292563831163
+      spriteID: 07fd46c4b06222c40800000000000000
+      internalID: 5485989126058860400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: isaac walk_15
+      name: isaac blueeee_15
       rect:
         serializedVersion: 2
         x: 150
@@ -480,8 +480,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f205d798198c090800000000000000
-      internalID: -8013995517206843492
+      spriteID: ba51b69a8affbc5a0800000000000000
+      internalID: -6499820537317222997
       vertices: []
       indices: 
       edges: []

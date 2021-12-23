@@ -169,6 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   orderInParty: 1
+  anim: {fileID: 0}
 --- !u!212 &249694102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -444,6 +445,7 @@ GameObject:
   - component: {fileID: 688470551}
   - component: {fileID: 688470552}
   - component: {fileID: 688470554}
+  - component: {fileID: 688470553}
   m_Layer: 0
   m_Name: Coy
   m_TagString: Untagged
@@ -486,6 +488,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &688470553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688470550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 976ed24229ed7a94abcf37ff2af3061a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &688470554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,6 +528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171693276}
   - component: {fileID: 1171693277}
+  - component: {fileID: 1171693278}
   m_Layer: 0
   m_Name: Party
   m_TagString: Untagged
@@ -549,6 +564,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef819134a13090e4f8203331a39236bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1171693278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171693275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fa2b51cd7c2b445b116c41eb0b9303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1242394315
@@ -763,6 +790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   orderInParty: 0
+  anim: {fileID: 1536052245}
 --- !u!95 &1536052245
 Animator:
   serializedVersion: 3
@@ -858,6 +886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   orderInParty: 2
+  anim: {fileID: 0}
 --- !u!212 &1552243083
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -980,7 +1009,7 @@ SpriteRenderer:
   m_SortingLayerID: 620875839
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8134169993233920946, guid: 4dbf6217850ed884dade77aa000d554a, type: 3}
+  m_Sprite: {fileID: -6055610653265171936, guid: ec9655ea53db5394c8661b078db1b55b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

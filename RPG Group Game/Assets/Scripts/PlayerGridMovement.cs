@@ -50,7 +50,7 @@ public class PlayerGridMovement : MonoBehaviour
                 }
                 else
                 {
-                    anim.SetFloat("horizontal input", 0);
+                    anim.SetFloat("horizontal input", 0f);
                 }
             } else if (verticalInput)
             {
@@ -79,5 +79,15 @@ public class PlayerGridMovement : MonoBehaviour
         {
             anim.SetBool("moving", true);
         }
+    }
+
+    public float GetHorizontalInput()
+    {
+        return anim.GetFloat("horizontal input");
+    }
+
+    public float GetVerticalInput()
+    {
+        return anim.GetFloat("vertical input");
     }
 }
