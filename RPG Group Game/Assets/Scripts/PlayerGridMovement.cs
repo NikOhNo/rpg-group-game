@@ -41,7 +41,7 @@ public class PlayerGridMovement : MonoBehaviour
             if (horizontalInput)
             {
                 anim.SetFloat("vertical input", 0f);
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
+                if (CheckAheadHorizontal())
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                     anim.SetFloat("horizontal input", Input.GetAxisRaw("Horizontal"));
@@ -51,11 +51,13 @@ public class PlayerGridMovement : MonoBehaviour
                 else
                 {
                     anim.SetFloat("horizontal input", 0f);
+                    anim.SetBool("moving", false);
                 }
-            } else if (verticalInput)
+            }
+            else if (verticalInput)
             {
                 anim.SetFloat("horizontal input", 0f);
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                if (CheckAheadVertical())
                 {
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
                     anim.SetFloat("vertical input", Input.GetAxisRaw("Vertical"));
@@ -65,10 +67,11 @@ public class PlayerGridMovement : MonoBehaviour
                 else
                 {
                     anim.SetFloat("vertical input", 0f);
+                    anim.SetBool("moving", false);
                 }
             }
 
-            if(!horizontalInput && !verticalInput)
+            if (!horizontalInput && !verticalInput)
             {
                 anim.SetBool("moving", false);
                 anim.SetFloat("horizontal input", 0f);
@@ -79,6 +82,21 @@ public class PlayerGridMovement : MonoBehaviour
         {
             anim.SetBool("moving", true);
         }
+    }
+
+    public bool GetMoving()
+    {
+        return anim.GetBool("moving");
+    }
+
+    public bool CheckAheadVertical()
+    {
+        return !Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement);
+    }
+
+    public bool CheckAheadHorizontal()
+    {
+        return !Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement);
     }
 
     public float GetHorizontalInput()

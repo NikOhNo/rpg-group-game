@@ -21,18 +21,24 @@ public class CopyAnimations : MonoBehaviour
 
     void FixedUpdate()
     {
-        // record position of leader
-        record.Enqueue(new ActionReplayRecord { horizontalInput = player.GetHorizontalInput(), verticalInput = player.GetVerticalInput() });
-
-        // remove last position from the record and use it for our own
-        if (record.Count > steps)
+        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) ==  1f || Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
         {
-            ActionReplayRecord actionReplayRecord = record.Dequeue();
-            horizontalInput = actionReplayRecord.horizontalInput;
-            verticalInput = actionReplayRecord.verticalInput;
+            // record position of leader
+            record.Enqueue(new ActionReplayRecord { horizontalInput = player.GetHorizontalInput(), verticalInput = player.GetVerticalInput() });
 
-            anim.SetFloat("horizontal", horizontalInput);
-            anim.SetFloat("vertical", verticalInput);
+            // remove last position from the record and use it for our own
+            if (record.Count > steps)
+            {
+                ActionReplayRecord actionReplayRecord = record.Dequeue();
+                horizontalInput = actionReplayRecord.horizontalInput;
+                verticalInput = actionReplayRecord.verticalInput;
+
+                anim.SetFloat("horizontal", horizontalInput);
+                anim.SetFloat("vertical", verticalInput);
+            }
+        } else if (player.GetMoving() == false) {
+            anim.SetFloat("horizontal", 0f);
+            anim.SetFloat("vertical", 0f);
         }
     }
 }
