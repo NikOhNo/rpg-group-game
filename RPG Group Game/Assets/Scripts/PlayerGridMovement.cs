@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,15 +7,16 @@ public class PlayerGridMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Transform movePoint;
-
     public LayerMask whatStopsMovement;
-
     public Animator anim;
+
+    LineCoordinates playerFollowing;
 
     // Start is called before the first frame update
     void Start()
     {
         movePoint.parent = null;
+        playerFollowing = FindObjectOfType<LineCoordinates>();
     }
 
     // Update is called once per frame
@@ -43,6 +45,12 @@ public class PlayerGridMovement : MonoBehaviour
                 {
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                     anim.SetFloat("horizontal input", Input.GetAxisRaw("Horizontal"));
+                    playerFollowing.GiveCoord(transform.position);
+                    playerFollowing.DeleteCoord();
+                }
+                else
+                {
+                    anim.SetFloat("horizontal input", 0f);
                 }
             } else if (verticalInput)
             {
@@ -50,8 +58,14 @@ public class PlayerGridMovement : MonoBehaviour
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
                 {
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                    anim.SetFloat("vertical input", Input.GetAxisRaw("Vertical"));
+                    playerFollowing.GiveCoord(transform.position);
+                    playerFollowing.DeleteCoord();
                 }
-                anim.SetFloat("vertical input", Input.GetAxisRaw("Vertical"));
+                else
+                {
+                    anim.SetFloat("vertical input", 0f);
+                }
             }
 
             if(!horizontalInput && !verticalInput)
@@ -65,5 +79,15 @@ public class PlayerGridMovement : MonoBehaviour
         {
             anim.SetBool("moving", true);
         }
+    }
+
+    public float GetHorizontalInput()
+    {
+        return anim.GetFloat("horizontal input");
+    }
+
+    public float GetVerticalInput()
+    {
+        return anim.GetFloat("vertical input");
     }
 }
