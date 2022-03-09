@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 377916792}
   - component: {fileID: 377916795}
   - component: {fileID: 377916794}
+  - component: {fileID: 377916796}
   m_Layer: 6
   m_Name: Square
   m_TagString: Interactable
@@ -261,6 +262,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &377916796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377916791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0e8129a7619304ea6fbb33a1c590e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 377916794}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &772707969 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2529918221234939775, guid: 4d9c6d3e9e4e40d4ea879eb6ea53e441, type: 3}
@@ -461,6 +489,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1819197810722615231, guid: e19e8b0184bf45645aa596d7cccc036a, type: 3}
+      propertyPath: m_UpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1819197811331533691, guid: e19e8b0184bf45645aa596d7cccc036a, type: 3}
       propertyPath: m_RootOrder
       value: 5

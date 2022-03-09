@@ -35,6 +35,7 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+    // Iterates through sentences and calls end dialogue which sets the interacting variable and animation components equal to false
     public void DisplayNextSentence()
     {
         if(sentences.Count == 0)
@@ -58,8 +59,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    //sets interacting and animation booleans equal to false
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        FindObjectOfType<Interact>().SetInteractingFalse();
     }
 }
